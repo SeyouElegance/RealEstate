@@ -4,12 +4,14 @@ import { RouterModule } from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
+import { PropertiesComponent } from './properties/properties.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent
+    HomeComponent,
+    PropertiesComponent
   ],
   imports: [
     BrowserModule,

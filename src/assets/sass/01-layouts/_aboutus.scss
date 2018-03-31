@@ -1,0 +1,87 @@
+#about-section{
+  margin-top: 155px;
+
+  .AboutUs-left{
+    h2{
+      font-family: $font-family-text;
+      color:$secondary-color;
+      padding-bottom: 20px;
+    }
+    h2 + p{
+      font-family: $font-family-text;
+      font-size: 25px;
+      line-height: 35px;
+      color:$primary-color;
+      text-transform: uppercase;
+    }
+    p{
+      font-family: $font-family-text;
+      font-size: 13px;
+      line-height: 25px;
+      color:$primary-color;
+      padding-bottom: 30px;
+    }
+    .about-border{
+      margin-top: 0px;
+      background: url("../img/decor.png");
+      background-size: contain;
+      width: 100%;
+      background-repeat: no-repeat;
+
+      .border-about{
+        border: 7px solid $secondary-color;
+        height: 129px;
+        width: 29%;
+        float: left;
+        position: absolute;
+        margin: -9px -42px;
+      }
+
+      p{
+        font-family: "Roboto";
+        font-size: 75px;
+        line-height: 25px;
+        color: $primary-color;
+        margin: 69px 0 0 25px;
+        z-index: 1;
+        font-weight: bold;
+      }
+      p + p{
+        font-family: $font-family-text;
+        font-weight: 100;
+        font-size: 12px;
+        line-height: 16px;
+        letter-spacing: 8px;
+        margin-left: 20px;
+        z-index: 1;
+      }
+
+    }
+    .fa-search{
+      margin: 85px 0 0 25px;
+      color: $primary-color;
+    }
+    .fa-search + p{
+      font-weight: 100;
+      font-size: 16px;
+      line-height: 22px;
+      z-index: 1;
+      text-transform: uppercase;
+      color: $primary-color;
+    }
+  }
+
+  img{
+    width: 100%;
+  }
+}
+
+
+@media only screen and (max-width:767px){
+  #about-section .AboutUs-left .about-border {
+    display: none;
+  }
+  #about-section {
+    margin-top: 25px;
+  }
+}
