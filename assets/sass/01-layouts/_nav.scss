@@ -1,0 +1,30 @@
+.navbar{
+  background-color: #00000038;
+  .my-sign-in{
+    display: none;
+  }
+  
+  @media only screen and (max-width:575px){
+      .my-sign-in{
+        display: block;
+      }
+  }
+  .nav-link{
+    color: $font-color;
+    font-family: $font-family-menu;
+    text-transform: uppercase;
+    font-size: 12px;
+  }
+  .btn{
+    border: 1px solid $border-color;
+    border-radius: 0px;
+    color: $font-color;
+    font-family: $font-family-menu;
+    text-transform: uppercase;
+    font-size: 10px;
+  }
+  .btn:hover, .btn:active{
+      background: white;
+      color: $primary-color;
+  }
+}
