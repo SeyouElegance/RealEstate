@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-sm navbar-dark fixed-top">
   <div class="container">
-    <img src="/assets/img/Logo.png" alt="" height="45" width="45">
+    <img src="assets/img/logo.png" alt="" height="45" width="45">
     <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -36,7 +36,7 @@
 <!--HOME SECTION -->
 <header id="home-section">
   <div class="home-inner">
-    <div class="container">
+    <div class="container" [ngsReveal]="{ duration: 2000, origin:'bottom', distance: '300px', viewFactor: 0.2}">
       <div class="row">
         <div class="col-12 text-center">
           <h1 class="display-4 mb-2">Find the right home for you</h1>
@@ -44,7 +44,7 @@
         </div>
       </div>
     </div>
-    <div class="container">
+    <div class="container" [ngsReveal]="{ duration: 2000, origin:'bottom', distance: '300px', delay: 2000, viewFactor: 0.2}">
       <div class="row">
         <div class="col-md-1"></div>
         <div class="col-md-10 search-bar">
@@ -83,7 +83,7 @@
 </header>
 
 <!--ABOUT US SECTION -->
-<section id="about-section">
+<section id="about-section" [ngsReveal]="{ duration: 2000, origin:'bottom', distance: '300px', viewFactor: 0.2}">
   <div class="container">
     <div class="row">
       <div class="col-md-1"></div>
@@ -114,7 +114,7 @@
   </section>
 
   <!--ALL Properties SECTION -->
-  <section id="properties-section">
+  <section id="properties-section" [ngsReveal]="{ duration: 2000, origin:'bottom', distance: '300px', viewFactor: 0.2}">
     <div class="container">
       <div class="row" style="margin-bottom: 35px;">
         <div class="col-md-1"></div>
@@ -295,7 +295,7 @@
   </section>
 
   <!--Last News SECTION -->
-  <section id="news-section">
+  <section id="news-section" [ngsReveal]="{ duration: 2000, origin:'bottom', distance: '300px', viewFactor: 0.2}">
     <div class="container">
       <div class="row" style="margin-bottom: 35px;">
         <div class="col-md-1"></div>
@@ -312,7 +312,7 @@
         <div class="row">
             <div class="col-lg-4 col-md-6 col-sm-9 col-9 w-100 mr-auto ml-auto mb-5">
                 <div class="box">
-                    <img src="../assets/img/news.png" alt="">
+                    <img src="assets/img/news_pic.png" alt="">
                     <div class="my-box">
                         <h3 class="title">May 12, 2017</h3>
                         <p class="lieu">Fort Greene Parking Lot Will Give Way</p>
@@ -325,7 +325,7 @@
             </div>
             <div class="col-lg-4 col-md-6 col-sm-9 col-9 w-100 mr-auto ml-auto mb-5">
                 <div class="box">
-                    <img src="../assets/img/news.png" alt="">
+                    <img src="assets/img/news_pic.png" alt="">
                     <div class="box-content">
                         <h3 class="title">May 12, 2017</h3>
                         <p class="lieu">Fort Greene Parking Lot Will Give Way</p>
@@ -338,7 +338,7 @@
             </div>
             <div class="col-lg-4 col-md-6 col-sm-9 col-9 w-100 mr-auto ml-auto mb-5">
                 <div class="box">
-                    <img src="../assets/img/news.png" alt="">
+                    <img src="assets/img/news_pic.png" alt="">
                     <div class="box-content">
                         <h3 class="title">May 12, 2017</h3>
                         <p class="lieu">Fort Greene Parking Lot Will Give Way</p>
@@ -357,7 +357,7 @@
   <div class="container">
     <div class="row">
     <div class="col-md-2 col-sm-6 col-12 text-center text-sm-left mb-4">
-      <img src="/assets/img/Logo.png" alt="" height="45" width="45">
+      <img src="assets/img/Logo.png" alt="" height="45" width="45">
     </div>
     <div class="col-md-2 col-sm-6 col-6 mb-4">
       <p>© Taiyo Real Estate 2017<br>

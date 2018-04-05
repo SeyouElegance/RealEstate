@@ -1,11 +1,12 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
+import { NgsRevealConfig } from 'ng-scrollreveal';
+import { NgsRevealModule } from 'ng-scrollreveal';
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { PropertiesComponent } from './properties/properties.component';
-
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { PropertiesComponent } from './properties/properties.component';
   ],
   imports: [
     BrowserModule,
+    NgsRevealModule.forRoot(),
     RouterModule.forRoot([
       {
         path: '',
